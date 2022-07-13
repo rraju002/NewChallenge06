@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <!--head-->
+<!--And background color -->
 <head>
-    <title>Weather_Dashboard</title>
+       <body style="background-color:#87ceeb;">
+    <title>Weather</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -11,23 +13,22 @@
     <link rel="stylesheet" href="./Assets/style.css">
     <link rel="icon" href="/assets/image/nic.jpg">
 </head>
-<!-- comment -->
 <!--Body-->
 <body>
     <header class="jumbotron">
-        <h1 class="display-3"> <i class="fas fa-cloud-sun"></i></i> Weather-Dashboard <i
+        <h1 class="display-3"> <i class="fas fa-cloud-sun"></i></i> Weather Forcaster <i
                 class="fas fa-cloud-showers-heavy"></i> </h1>
     </header>
 
     <div class="container">
         <div class=" row">
-            <!-- City Search sidebar -->
+            <!-- Search sidebar -->
             <div class="col-sm-3 bg-light container" id="sidebar">
                 <!-- search bar -->
-                <h6 id="search-header">Search for a City:</h6>
+                <h6 id="search-header">Look Up a City:</h6>
                 <div class="col-sm-10 input-group">
                     <!-- search input -->
-                    <input class="form-control  " id="cityenter" type="text" placeholder="city name">
+                    <input class="form-control  " id="cityenter" type="text" placeholder="Name">
                     <!-- append search button to input -->
                     <div class="input-group-append">
                         <button class="btn   buttonsearch" type="button">
@@ -56,11 +57,11 @@
             </div>
             <!-- Main View -->
             <div class="col-sm-8">
-                <!-- Current Conditionions View -->
+                <!-- Current View -->
                 <div class="container">
                     <div class="card card-body current-view" id="current-view">
                         <div class="card-title " id="cityinfos">
-                            <h2 id="namecity">City name :</h2>
+                            <h2 id="namecity">Name :</h2>
                             <p id="currentdate"></p>
                             <img id="weathericon">
                             <h6 class="card-subtitle mb-2 "> Temperature : <span id="tempcity"></span></h6>
@@ -72,10 +73,10 @@
                             <h6 class="card-subtitle mb-2"> UV Index : <span id="uv-index"></span></h6>
                         </div>
                     </div>
-                    <!-- 5 Day Forecast -->
-                    <!-- Dates and weather stats dynamically set -->
+                    <!-- Forecast -->
+                    <!-- Dates and weather  -->
                     <div id="five-day">
-                        <h5>5 Days Forecast</h5>
+                        <h5>Forecast</h5>
                         <div class="row">
                             <div class="col-sm">
                                 <div class="card  five-cards">
@@ -129,7 +130,8 @@
             </div>
         </div>
     </div>
-
+<footer>
+    <p>A Playerz First Jawn</p>
     <!-- main jQuery library -->
     <script src="https://code.jquery.com/jquery-3.5.0.min.js"
         integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
@@ -139,7 +141,7 @@
     <!-- moment.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <!-- my script.js -->
-    <script src="./assets/script/script.js"></script>
+    <script src="./Assets/script.js"></script>
  <!--comment-->
 </body>
 

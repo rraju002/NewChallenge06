@@ -1,11 +1,10 @@
-/* Global */ 
 * {
     max-width: 100vw;
   }
   
   body{
     font-style: italic;
-  background-image: url("../image/img7.jpg");
+  background-image: url("https://videohive.img.customer.envatousercontent.com/files/120084467/vlcsnap-2015-01-18-19h03m04.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=20258dbe142943bacc264aba77ab9d25");
   background-repeat: no-repeat;
   background-size: cover;
   font-weight: bold;
@@ -22,7 +21,7 @@
   .jumbotron  {
     text-align: center;
   
-    color:#2eadf7;
+    color:rgb(59, 57, 57);
     border-radius: 0;
     border-bottom: 10px solid rgb(59, 57, 57);
     padding: 2px;
@@ -47,7 +46,7 @@
   }
   
   .c:hover {
-    background-color: black;
+    background-color:white
   }
   section button{
   width: 252px;
@@ -55,7 +54,7 @@
   }
   
   section button:hover{
-    background-color:rgb(240, 164, 164);
+    background-color:#87ceeb;
   }
   
   li{
@@ -81,12 +80,14 @@
   div .card-body{
       background-color: rgb(205, 232, 245);
       color: black;
+      text-align: center;
+      margin: -30px -150px 25px 0
   }
   
   .col-sm .card{
     border-radius: 30px;
-     border: 2px solid #5f0505;
-     box-shadow: 10px 10px 10px #771e03;
+     border: 2px solid rgb(67, 71, 7);
+     box-shadow: 10px 10px 10px rgb(67, 71, 7);
      height: 200px;
      width: 140px;
      margin-top: -8px;
@@ -107,10 +108,12 @@
     font-weight: bold;
     
   }
+  .bg-light {
+    background-color: rgb(67, 71, 7);
+  }
   h5{
     color: #ffffff;
    font-size: 30px;
-   border: 10px solid #1f3fce;
    text-align: center;
    background-color: rgb(67, 71, 75);
   }
@@ -122,6 +125,7 @@
   .card-body, #five-day{
     padding: 1px 0 1px 10px;
     margin: -30px -150px 25px 0 ;
+    
   }
   .col-sm-3{
     margin: -30px  25px 9px ;
@@ -132,16 +136,16 @@
   }
    .col-sm div {
      font-weight: bold;
-     color: #ec2929;
+     color: black;
    }
    .five-cards:hover{
-     background-color: #4869eb;
+     background-color: white;
    }
    #clearhist{
      background-color: rgb(14, 1, 1);
    }
    #clearhist:hover{
-     background-color: red;
+     background-color: #87ceeb;
    }
    .btn{
      background-color: royalblue;
@@ -155,4 +159,10 @@
   #cityenter{
     padding: 20px ;
   
+  }
+  .current-view{
+    text-align: center;
+  }
+  #current-view{
+    text-align: center;
   }
